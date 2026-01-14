@@ -45,18 +45,18 @@ pip install -r requirements.txt
 ### 2️⃣ Create a .env file (required)
 
 Create a file named .env in the project root (same folder as main.py).<br>
-OPENAI_API_KEY=
-GMAIL_USER=
-GMAIL_APP_PASSWORD=
+OPENAI_API_KEY=<br>
+GMAIL_USER=<br>
+GMAIL_APP_PASSWORD=<br>
 
 ---
 
 ### 3️⃣ Add inputs
-Update the following files with your content:
-resume.txt – paste your resume text
-jd.txt – paste the job description
+Update the following files with your content:<br>
+resume.txt – paste your resume text<br>
+jd.txt – paste the job description<br>
 
 ### 4️⃣ Run the project
-python main.py
+python main.py<br>
 
 You will receive an email containing the job match report.
