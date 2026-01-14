@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 ### 2️⃣ Create a .env file (required)
 
-Create a file named .env in the project root (same folder as main.py).
+Create a file named .env in the project root (same folder as main.py).<br>
 OPENAI_API_KEY=
 GMAIL_USER=
 GMAIL_APP_PASSWORD=
@@ -58,3 +58,5 @@ jd.txt – paste the job description
 
 ### 4️⃣ Run the project
 python main.py
+
+You will receive an email containing the job match report.
