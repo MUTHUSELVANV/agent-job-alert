@@ -14,11 +14,21 @@ This project demonstrates a multi-agent AI system that autonomously analyzes a r
 - OpenAI API (LLM reasoning)
 - Gmail SMTP (email delivery)
 
-## How It Works
+## 1. How It Works
 1. Resume and job description are ingested as text
 2. Agents collaborate to extract insights and evaluate fit
 3. A structured report (score, strengths, gaps, recommendations) is generated
 4. The final output is emailed automatically to the user
+
+### 2. Create a `.env` file (required)
+
+Create a file named `.env` in the project root (same folder as `main.py`).
+
+**Empty template:**
+```env
+OPENAI_API_KEY=
+GMAIL_USER=
+GMAIL_APP_PASSWORD=
 
 ## How to Run
 
