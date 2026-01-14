@@ -1,0 +1,37 @@
+Muthuselvan Vellaichamy
+linkedin.com/in/muthu281099 •muthuselvanv.github.io • github.com/MUTHUSELVANV • vmuthu@umich.edu • (734) 747-1148
+SUMMARY
+Graduate student seeking a Data Scientist / Analyticsrole with strong experience in Python, SQL, machine learning, ETL pipelines, and data visualization. Experienced in translating complex, large-scale datasets into actionable insights using predictive modeling, simulation, and dashboarding, with applied impact across healthcare, education, and operations. EDUCATION
+UNIVERSITY OF MICHIGAN, ANN ARBOR Aug 2024 – Dec 2025
+Master of Science in Industrial and Operations Engineering | GPA: 3.8/4.0
+Coursework: Advanced Data Analytics, Project Management and Consulting, Statistical Learning I: Regression, Design of Experiments
+AMRITA VISHWA VIDYAPEETHAM, India Jul 2017 – Jun 2021
+Bachelor of Technology in Mechanical Engineering | CGPA: 9.4/10.0
+Coursework: Operations Research, Probability and Statistics, Computational Thinking and Problem Solving
+SKILLS
+Languages & Tools: SQL | Python | Tableau | Power BI | SAP Business Objects | Excel (VBA, Macros) | Streamlit
+Libraries & Frameworks: pandas | NumPy | matplotlib | seaborn | SciPy | TensorFlow (basic)
+Machine Learning Models: Random Forest | Decision Tree | XGBoost | Logistic Regression | Neural Networks (basic)
+Concepts: ETL and ML Pipeline Development | Data Modeling | Data Warehousing | Forecasting | Predictive Modeling |
+Regression Analysis | KPI Development | Process Automation | Simulation Modeling | Queueing Systems | Time Series Analysis
+Database/Platforms: Oracle | MySQL | MongoDB
+Other: Feature Engineering | Hyperparameter Tuning | Data Cleaning | Dashboard Automation | Stakeholder Communication
+Certification: Machine Learning Specialization (Coursera)
+WORK EXPERIENCE
+Research Associate, Office of the Associate Dean for Undergraduate Education, UMich Jan 2025 – Present  Designed and automated Tableau dashboards to track undergraduate program outcomes, course trends, and engagement metrics  Integrated Oracle databases with Tableau and Google Sheets to build ETL reporting pipelines, reducing manual reporting time
+ Analyzed large-scale survey and enrollment data to uncover actionable trends and support data-driven decision-making  Delivered insights for policy improvements and academic program assessments, impacting 5,000+ students
+Systems Engineering Research Intern, Center for Healthcare Engineering & Patient Safety (CHEPS) May 2025 – Aug 2025
+ Designed a discrete-eventsimulation of Emergency Department CT workflows to identify bottlenecks and optimize throughput  Developed a Python simulation framework integrating queueing models, stochastic scenarios, and scanner utilization visualizations  Executed 100+ simulation runs to refine resource allocation and evaluate operational strategies under downtime constraints  Evaluated downtime, delays, and acuity-based patient priority strategies to improve system resilience and efficiency  Identified opportunities to free 24 hours of daily bed capacity, driving recommendations to leadership via dashboards and reports
+Trainee Engineer, Project Management Group, Bharat Electronics Limited, India Dec 2021 – Feb 2023
+ Managed end-to-end EVM commissioning and mock polls for 2022 Punjab Assembly election
+ Collaborated across departments to successfully deliver over 124,000 VVPAT units for the 2024 Indian Parliament elections  Optimized procurement to deliver 12% costsavings and strengthen inventory-production-quality coordination
+PROJECTS
+Children’s Emergency Services - Data-Driven Process Optimization, Michigan Medicine Jan 2025 – Apr 2025
+ Analyzed bedside handoff workflows using time series methods, identifying opportunities to reduce patient wait times by 11%
+ Developed XGBoost model to predict patient wait times based on acuity level, day of the week, and other factors  Built interactive Tableau dashboards to visualize bottlenecks and communicate improvement strategies to hospital leadership
+Evaluating the Effects of Fatigue on Game Performance, UMich Sept 2024 –Nov 2024
+ Conducted an experiment with 34 participants using the Chrome Dino game to study the effects of physical vs. mental fatigue
+ Applied t-test analysis and found a significant performance decline after mental fatigue, but not after physical fatigue
+ONLINE BOOTCAMP
+IIT-M Advanced Programming Professional & Master Data Science, IITM, India Feb 2023 – Jul 2023
+ Built XGBoost ML pipeline to predict customer insurance subscription decisions using historic structured data  Performed EDA to understand data patterns, then optimized models through feature engineering and hyperparameter tuning  Achieved 85% accuracy, improving sales performance by 17% via automated lead targeting
