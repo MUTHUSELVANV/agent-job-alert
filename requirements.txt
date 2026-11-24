@@ -1,0 +1,5 @@
+# agent-job-alert dependencies (was missing from the repo)
+# crewai brings the OpenAI client with it, so no separate openai line is needed.
+crewai
+streamlit
+python-dotenv
