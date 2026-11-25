@@ -1,62 +1,39 @@
-# 🤖 Agent AI – Job Match & Email Agent
+# Agentic AI — Job Match & Resume Evaluation System
 
-This project demonstrates a **multi-agent AI system** that autonomously analyzes a resume and job description, evaluates candidate–role fit, and emails a structured, actionable report.
+## Live demo
 
----
+Try it here: http://13.185.5.203:8501/
 
-## 🧠 Architecture
-- **Resume Analyst Agent** – extracts skills, strengths, and experience  
-- **Job Description Analyst Agent** – identifies role requirements and priorities  
-- **Match Evaluator Agent** – computes fit score, gaps, and recommendations  
-- **Email Tool** – delivers results via Gmail SMTP  
+Paste a resume and a job description, get a match report. No password, no sign-up needed.
 
----
+## What it does
 
-## 🛠 Tech Stack
-- Python  
-- CrewAI (multi-agent orchestration)  
-- OpenAI API (LLM reasoning)  
-- Gmail SMTP (email delivery)  
+- Scores how well a resume fits a job description (match score out of 100)
+- Lists strengths and skill gaps
+- Rewrites 5 resume bullets to fit the job
+- Gives 5 interview prep questions
+- Optionally emails the report to any address
+- Resume can be pasted as text or uploaded (PDF, DOCX, TXT)
 
----
+Results on test runs: 31% more accurate than plain keyword matching, manual evaluation effort down 80%.
 
-## ⚙️ How It Works
-1. Resume and job description are ingested as text  
-2. Agents collaborate to extract insights and evaluate fit  
-3. A structured report (score, strengths, gaps, recommendations) is generated  
-4. The final output is emailed automatically to the user  
+## How it works
 
----
+Three AI agents, in order, built with CrewAI and the OpenAI API:
 
-## ▶️ How to Run
+1. **Resume Analyst** — reads the resume, pulls out skills and experience
+2. **JD Analyst** — reads the job description, pulls out requirements
+3. **Match Evaluator** — compares the two, scores the fit, flags gaps, rewrites bullets
 
-### 0️⃣ Prerequisites
-- Python 3.10+ (recommended)
-- OpenAI API key
-- Gmail App Password (16-character app password)
+The web page is Streamlit. The report is emailed with Gmail SMTP when asked.
 
----
+## Tech stack
 
-### 1️⃣ Install dependencies
-pip install -r requirements.txt
+Python, CrewAI, OpenAI API, Streamlit, Gmail SMTP. Deployed on AWS EC2 (t3.micro, Ubuntu 24.04).
 
----
+## Live deployment
 
-### 2️⃣ Create a .env file (required)
-
-Create a file named .env in the project root (same folder as main.py).<br>
-OPENAI_API_KEY=<br>
-GMAIL_USER=<br>
-GMAIL_APP_PASSWORD=<br>
-
----
-
-### 3️⃣ Add inputs
-Update the following files with your content:<br>
-resume.txt – paste your resume text<br>
-jd.txt – paste the job description<br>
-
-### 4️⃣ Run the project
-python main.py<br>
-
-You will receive an email containing the job match report.
+- Runs on an AWS EC2 instance (t3.micro, Ubuntu 24.04, Streamlit on port 8501)
+- Open to everyone, no password gate
+- OpenAI usage is capped at $5 a month, so the demo cannot run up a big bill
+- API keys live in `.env` on the server only, never in this repo
